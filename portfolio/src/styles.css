@@ -1,0 +1,112 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css");
+body {
+    overflow-x: hidden;
+    background-image: url(../src/assets/image/bg.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.button {
+    margin-left: 45%;
+    background-color: rgb(255, 182, 47);
+}
+
+.pb {
+    width: 100%;
+}
+
+h1 {
+    font-size: 4.5rem;
+    text-transform: uppercase;
+    color: black;
+}
+
+h2 {
+    color: black;
+}
+
+.mainhr {
+    color: rgb(255, 182, 47);
+    height: 5px;
+    opacity: 1;
+    width: 50%;
+}
+
+.content-text {
+    font-size: 1rem;
+    color: black;
+    text-align: right;
+}
+
+.main-text {
+    font-size: 1rem;
+    color: black;
+}
+
+.section {
+    width: 60%;
+    background-color: rgba(253, 249, 247, 0.872);
+    height: 100vh;
+    font-size: 3em;
+}
+
+.content {
+    padding: 50px;
+}
+
+.bi:hover {
+    color: rgb(255, 182, 47);
+}
+
+@media only screen and (max-width: 1200px) {
+    .section {
+        width: 80%;
+        height: 100vh;
+    }
+    .content {
+        margin: 0 auto;
+        width: 80%;
+        height: 100vh;
+    }
+    h1 {
+        font-size: 2.5rem;
+        text-transform: uppercase;
+        color: gray;
+    }
+    .content-text {
+        font-size: 1rem;
+        color: black;
+        text-align: right;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .section {
+        margin: 0 auto;
+        width: 100%;
+        height: 100vh;
+    }
+    .content {
+        margin: 0 auto;
+        width: 100%;
+        height: 100vh;
+    }
+    h1 {
+        font-size: 1rem;
+        text-transform: uppercase;
+        color: black;
+    }
+    .content-text {
+        font-size: 1rem;
+        color: black;
+        text-align: right;
+    }
+}
